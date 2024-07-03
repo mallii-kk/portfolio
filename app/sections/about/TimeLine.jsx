@@ -6,7 +6,7 @@ import { LazyMotion, domAnimation, useInView } from "framer-motion";
 const TimeLineData = [
 	{ year: 2024, text: "Working as a React.JS, Next.jS, Front-end Developer" },
 	{ year: 2022, text: "Dive completely into React.js" },
-	{ year: 2022, text: "Start my journey as a  developer Front-end Developer" }
+	{ year: 2022, text: "Start my journey as a Front-end Developer" }
 ];
 
 export function TimeLine() {

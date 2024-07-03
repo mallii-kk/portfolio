@@ -1,9 +1,9 @@
 const author = "Mallikarjunaswamy k";
 const description =
-	"Software developer from Moldova, Republic of, who loves to develop beautiful websites, single page applications, customer relationship management or code from scratch using React and Next.js";
+	"Software developer from Banglore, Republic of, who loves to develop beautiful websites, single page applications, customer relationship management or code from scratch using React and Next.js";
 const url = "https://vasile-novatchii.netlify.app";
 export const AppMetadata = {
-	metadataBase: new URL("https://vasile-novatchii.netlify.app/"),
+	metadataBase: new URL("https://portfolio-gray-seven-28.vercel.app/"),
 	title: {
 		default: `Portfolio | ${author}`,
 		template: `%s | ${author}`
@@ -13,10 +13,9 @@ export const AppMetadata = {
 		icon: "/favicon.png"
 	},
 	keywords: [
-		"Vasile Novatchii",
-		"Vasile Novatchii - software developer",
+		"Mallikarjunaswamy",
+		"Malllik - software developer",
 		"Frontend developer",
-		"Flutter developer",
 		"Portfolio website",
 		"Frontend Developer Portfolio"
 	],
@@ -30,13 +29,7 @@ export const AppMetadata = {
 		siteName: `${author} | Portfolio`,
 		images: [
 			{
-				url: "https://vasile-novatchii.netlify.app/screenshot.webp",
-				width: 800,
-				height: 600,
-				alt: "My personal portfolio website"
-			},
-			{
-				url: "https://vasile-novatchii.netlify.app/screenshot.webp",
+				url: "",
 				width: 1800,
 				height: 1600,
 				alt: "My personal portfolio website"
