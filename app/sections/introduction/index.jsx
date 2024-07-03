@@ -125,7 +125,7 @@ export function WelcomeSection() {
 						</div>
 					</div>
 
-					{isTabletUp && <WelcomeAnimation />}
+					{/* {isTabletUp && <WelcomeAnimation />} */}
 				</div>
 			</section>
 		</LazyMotion>
