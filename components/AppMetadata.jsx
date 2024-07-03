@@ -1,7 +1,7 @@
 const author = "Mallikarjunaswamy k";
 const description =
 	"Software developer from Banglore, Republic of, who loves to develop beautiful websites, single page applications, customer relationship management or code from scratch using React and Next.js";
-const url = "https://vasile-novatchii.netlify.app";
+const url = "https://portfolio-gray-seven-28.vercel.app";
 export const AppMetadata = {
 	metadataBase: new URL("https://portfolio-gray-seven-28.vercel.app/"),
 	title: {
