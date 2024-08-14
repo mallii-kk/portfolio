@@ -7,7 +7,7 @@ export default function Page() {
 		<div className="container-md">
 			<WelcomeSection />
 			<AboutSection />
-			<ProjectsSection />
+			{/* <ProjectsSection /> */}
 			<TechnologiesSection />
 		</div>
 	);
