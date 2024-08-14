@@ -3,7 +3,7 @@
 import { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import { LazyMotion, domAnimation, useInView } from "framer-motion";
-import { WelcomeAnimation } from "./IntroAnimation";
+// import { WelcomeAnimation } from "./IntroAnimation";
 import { useScrollTo } from "hooks";
 import { useMediaQuery } from "utils";
 
@@ -43,7 +43,7 @@ export function WelcomeSection() {
 						<h1
 							tabIndex="0"
 							ref={ref}
-							className="text-3xl md:text-5xl xl:text-6xl font-bold"
+							className="text-2xl md:text-5xl xl:text-4xl font-bold"
 							style={{
 								transform: isInView ? "none" : "translateX(-200px)",
 								opacity: isInView ? 1 : 0,
@@ -114,8 +114,8 @@ export function WelcomeSection() {
 							}}
 						>
 							<Link
-								href="#projects"
-								onClick={onClick}
+								href="/projects"
+								// onClick={onClick}
 								tabIndex="0"
 								className="btn"
 								aria-label="Latest projects"

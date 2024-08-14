@@ -25,14 +25,14 @@ export function Menu({ onClick = () => {} }) {
 			<ul className="flex justify-center gap-5 flex-col md:flex-row items-start md:items-center">
 				{MENU_OPTIONS.sort(sortAscending).map((menuItem) => (
 					<li key={menuItem.id}>
-						<a
+						<Link
 							href={menuItem.url}
 							title={menuItem.name}
 							onClick={handleOnClick}
 							className="relative text-xl hover:no-underline after:absolute after:left-0 after:-bottom-[3px] after:h-[2px] after:w-0 after:bg-current after:transition-width after:duration-300 after:ease-in-out hover:after:w-full"
 						>
 							{menuItem.name}
-						</a>
+						</Link>
 					</li>
 				))}
 			</ul>

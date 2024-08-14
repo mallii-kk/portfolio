@@ -24,16 +24,14 @@ export function AboutSection() {
 							transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
 						}}
 					>
-						My name is Mallik, and I graduated from Visvesvaraya Technological University.
-						<p className="my-3.5">
-							I have a strong enthusiasm for diving into and mastering new technologies that catch
-							my interest.
+						{/* My name is Mallik, and I graduated from Visvesvaraya Technological University. */}
+						<p className="my-3.5 font-bold text-3xl">
+							Turning vision into reality with code and design.
 						</p>
-						<p className="my-3.5">
-							In May 2022, I embraced the role of a React developer at a company. Initially
-							uncertain about this career path, I decided to take the leap, and I have not looked
-							back since. Working with React has been an enriching experience, allowing me to
-							continuously develop my skills in frontend development.
+						<p className="my-3.5 font-semibold">
+							As a skilled full-stack developer, I am dedicated to turning ideas into innovative web
+							applications. Explore my latest projects and articles, showcasing my expertise in
+							React.js and web development.
 						</p>
 					</div>
 				</div>
