@@ -25,10 +25,10 @@ export function AboutSection() {
 						}}
 					>
 						{/* My name is Mallik, and I graduated from Visvesvaraya Technological University. */}
-						<p className="my-3.5 font-bold text-3xl">
+						<p className="my-3.5 font-bold text-md md:2xl">
 							Turning vision into reality with code and design.
 						</p>
-						<p className="my-3.5 font-semibold">
+						<p className="my-3.5 font-semibold text-md md:2xl">
 							As a skilled full-stack developer, I am dedicated to turning ideas into innovative web
 							applications. Explore my latest projects and articles, showcasing my expertise in
 							React.js and web development.
