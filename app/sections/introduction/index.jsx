@@ -43,7 +43,7 @@ export function WelcomeSection() {
 						<h1
 							tabIndex="0"
 							ref={ref}
-							className="text-2xl md:text-5xl xl:text-4xl font-bold"
+							className="text-3xl md:text-5xl font-bold"
 							style={{
 								transform: isInView ? "none" : "translateX(-200px)",
 								opacity: isInView ? 1 : 0,

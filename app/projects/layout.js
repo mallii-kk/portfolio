@@ -75,14 +75,14 @@ export default function Page() {
 							</div>
 						) : (
 									// <Projects projects={filteredProjects} />
-									<>
+									<div>
 
 										<Link href={"https://finance-alpha-two.vercel.app"} className="m-2">
 											<HeadingDivider title="Finance" />
 										</Link>
 
-										<div className="flex flex-col gap-3">
-											<div className="w-[50%]">
+										<div className="flex flex-col gap-3 ">
+											<div className="w-full md:w-[50%] ">
 												<Image src={finImage} width="100%" height="auto" alt="Finance Image"></Image>
 											</div>
 											<div>
@@ -91,7 +91,7 @@ export default function Page() {
 												</ul>
 											</div>
 										</div>
-									</>	
+									</div>	
 
 						)}
 					</ErrorBoundary>
